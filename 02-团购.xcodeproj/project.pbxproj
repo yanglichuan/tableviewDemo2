@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1824E9CB19A57CA800A4151E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824E9CA19A57CA800A4151E /* Foundation.framework */; };
+		1824E9CD19A57CA800A4151E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824E9CC19A57CA800A4151E /* CoreGraphics.framework */; };
+		1824E9CF19A57CA800A4151E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824E9CE19A57CA800A4151E /* UIKit.framework */; };
+		1824E9D519A57CA800A4151E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1824E9D319A57CA800A4151E /* InfoPlist.strings */; };
+		1824E9D719A57CA800A4151E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824E9D619A57CA800A4151E /* main.m */; };
+		1824E9DB19A57CA800A4151E /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824E9DA19A57CA800A4151E /* HMAppDelegate.m */; };
+		1824E9DE19A57CA800A4151E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1824E9DC19A57CA800A4151E /* Main.storyboard */; };
+		1824E9E119A57CA800A4151E /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824E9E019A57CA800A4151E /* HMViewController.m */; };
+		1824E9E319A57CA800A4151E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1824E9E219A57CA800A4151E /* Images.xcassets */; };
+		1824E9EA19A57CA800A4151E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824E9E919A57CA800A4151E /* XCTest.framework */; };
+		1824E9EB19A57CA800A4151E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824E9CA19A57CA800A4151E /* Foundation.framework */; };
+		1824E9EC19A57CA800A4151E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824E9CE19A57CA800A4151E /* UIKit.framework */; };
+		1824E9F419A57CA800A4151E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1824E9F219A57CA800A4151E /* InfoPlist.strings */; };
+		1824E9F619A57CA800A4151E /* _2___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824E9F519A57CA800A4151E /* _2___Tests.m */; };
+		1824EA0019A57D1500A4151E /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1824E9FF19A57D1500A4151E /* tgs.plist */; };
+		1824EA0319A57D5000A4151E /* HMTg.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824EA0219A57D5000A4151E /* HMTg.m */; };
+		1824EA0519A5810200A4151E /* HMTgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1824EA0419A5810200A4151E /* HMTgCell.xib */; };
+		1824EA0819A582C300A4151E /* HMTgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824EA0719A582C300A4151E /* HMTgCell.m */; };
+		1824EA0F19A58F3F00A4151E /* HMTgFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1824EA0E19A58F3F00A4151E /* HMTgFooterView.xib */; };
+		1824EA1219A58F6F00A4151E /* HMTgFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824EA1119A58F6F00A4151E /* HMTgFooterView.m */; };
+		1824EA1619A59F0C00A4151E /* HMTgHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1824EA1519A59F0C00A4151E /* HMTgHeadView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1824E9ED19A57CA800A4151E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1824E9BF19A57CA800A4151E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1824E9C619A57CA800A4151E;
+			remoteInfo = "02-团购";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1824E9C719A57CA800A4151E /* 02-团购.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-团购.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1824E9CA19A57CA800A4151E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1824E9CC19A57CA800A4151E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1824E9CE19A57CA800A4151E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1824E9D219A57CA800A4151E /* 02-团购-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02-团购-Info.plist"; sourceTree = "<group>"; };
+		1824E9D419A57CA800A4151E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1824E9D619A57CA800A4151E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1824E9D819A57CA800A4151E /* 02-团购-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "02-团购-Prefix.pch"; sourceTree = "<group>"; };
+		1824E9D919A57CA800A4151E /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		1824E9DA19A57CA800A4151E /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		1824E9DD19A57CA800A4151E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1824E9DF19A57CA800A4151E /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		1824E9E019A57CA800A4151E /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		1824E9E219A57CA800A4151E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1824E9E819A57CA800A4151E /* 02-团购Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-团购Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1824E9E919A57CA800A4151E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1824E9F119A57CA800A4151E /* 02-团购Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02-团购Tests-Info.plist"; sourceTree = "<group>"; };
+		1824E9F319A57CA800A4151E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1824E9F519A57CA800A4151E /* _2___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2___Tests.m"; sourceTree = "<group>"; };
+		1824E9FF19A57D1500A4151E /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		1824EA0119A57D5000A4151E /* HMTg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTg.h; sourceTree = "<group>"; };
+		1824EA0219A57D5000A4151E /* HMTg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTg.m; sourceTree = "<group>"; };
+		1824EA0419A5810200A4151E /* HMTgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMTgCell.xib; sourceTree = "<group>"; };
+		1824EA0619A582C300A4151E /* HMTgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTgCell.h; sourceTree = "<group>"; };
+		1824EA0719A582C300A4151E /* HMTgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTgCell.m; sourceTree = "<group>"; };
+		1824EA0E19A58F3F00A4151E /* HMTgFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMTgFooterView.xib; sourceTree = "<group>"; };
+		1824EA1019A58F6F00A4151E /* HMTgFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTgFooterView.h; sourceTree = "<group>"; };
+		1824EA1119A58F6F00A4151E /* HMTgFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTgFooterView.m; sourceTree = "<group>"; };
+		1824EA1519A59F0C00A4151E /* HMTgHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMTgHeadView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1824E9C419A57CA800A4151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824E9CD19A57CA800A4151E /* CoreGraphics.framework in Frameworks */,
+				1824E9CF19A57CA800A4151E /* UIKit.framework in Frameworks */,
+				1824E9CB19A57CA800A4151E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1824E9E519A57CA800A4151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824E9EA19A57CA800A4151E /* XCTest.framework in Frameworks */,
+				1824E9EC19A57CA800A4151E /* UIKit.framework in Frameworks */,
+				1824E9EB19A57CA800A4151E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1824E9BE19A57CA800A4151E = {
+			isa = PBXGroup;
+			children = (
+				1824E9D019A57CA800A4151E /* 02-团购 */,
+				1824E9EF19A57CA800A4151E /* 02-团购Tests */,
+				1824E9C919A57CA800A4151E /* Frameworks */,
+				1824E9C819A57CA800A4151E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1824E9C819A57CA800A4151E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1824E9C719A57CA800A4151E /* 02-团购.app */,
+				1824E9E819A57CA800A4151E /* 02-团购Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1824E9C919A57CA800A4151E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1824E9CA19A57CA800A4151E /* Foundation.framework */,
+				1824E9CC19A57CA800A4151E /* CoreGraphics.framework */,
+				1824E9CE19A57CA800A4151E /* UIKit.framework */,
+				1824E9E919A57CA800A4151E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1824E9D019A57CA800A4151E /* 02-团购 */ = {
+			isa = PBXGroup;
+			children = (
+				1824EA0D19A58F0300A4151E /* Classes */,
+				1824E9D119A57CA800A4151E /* Supporting Files */,
+			);
+			path = "02-团购";
+			sourceTree = "<group>";
+		};
+		1824E9D119A57CA800A4151E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1824E9DC19A57CA800A4151E /* Main.storyboard */,
+				1824E9E219A57CA800A4151E /* Images.xcassets */,
+				1824E9FF19A57D1500A4151E /* tgs.plist */,
+				1824E9D219A57CA800A4151E /* 02-团购-Info.plist */,
+				1824E9D319A57CA800A4151E /* InfoPlist.strings */,
+				1824E9D619A57CA800A4151E /* main.m */,
+				1824E9D819A57CA800A4151E /* 02-团购-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1824E9EF19A57CA800A4151E /* 02-团购Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1824E9F519A57CA800A4151E /* _2___Tests.m */,
+				1824E9F019A57CA800A4151E /* Supporting Files */,
+			);
+			path = "02-团购Tests";
+			sourceTree = "<group>";
+		};
+		1824E9F019A57CA800A4151E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1824E9F119A57CA800A4151E /* 02-团购Tests-Info.plist */,
+				1824E9F219A57CA800A4151E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1824EA0919A58EBA00A4151E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1824E9DF19A57CA800A4151E /* HMViewController.h */,
+				1824E9E019A57CA800A4151E /* HMViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1824EA0A19A58EC600A4151E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1824EA0119A57D5000A4151E /* HMTg.h */,
+				1824EA0219A57D5000A4151E /* HMTg.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1824EA0B19A58ED100A4151E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1824EA0419A5810200A4151E /* HMTgCell.xib */,
+				1824EA0619A582C300A4151E /* HMTgCell.h */,
+				1824EA0719A582C300A4151E /* HMTgCell.m */,
+				1824EA0E19A58F3F00A4151E /* HMTgFooterView.xib */,
+				1824EA1019A58F6F00A4151E /* HMTgFooterView.h */,
+				1824EA1119A58F6F00A4151E /* HMTgFooterView.m */,
+				1824EA1519A59F0C00A4151E /* HMTgHeadView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1824EA0C19A58EE000A4151E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1824E9D919A57CA800A4151E /* HMAppDelegate.h */,
+				1824E9DA19A57CA800A4151E /* HMAppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		1824EA0D19A58F0300A4151E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1824EA0C19A58EE000A4151E /* Others */,
+				1824EA0919A58EBA00A4151E /* Controllers */,
+				1824EA0A19A58EC600A4151E /* Model */,
+				1824EA0B19A58ED100A4151E /* Views */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1824E9C619A57CA800A4151E /* 02-团购 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1824E9F919A57CA800A4151E /* Build configuration list for PBXNativeTarget "02-团购" */;
+			buildPhases = (
+				1824E9C319A57CA800A4151E /* Sources */,
+				1824E9C419A57CA800A4151E /* Frameworks */,
+				1824E9C519A57CA800A4151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-团购";
+			productName = "02-团购";
+			productReference = 1824E9C719A57CA800A4151E /* 02-团购.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1824E9E719A57CA800A4151E /* 02-团购Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1824E9FC19A57CA800A4151E /* Build configuration list for PBXNativeTarget "02-团购Tests" */;
+			buildPhases = (
+				1824E9E419A57CA800A4151E /* Sources */,
+				1824E9E519A57CA800A4151E /* Frameworks */,
+				1824E9E619A57CA800A4151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1824E9EE19A57CA800A4151E /* PBXTargetDependency */,
+			);
+			name = "02-团购Tests";
+			productName = "02-团购Tests";
+			productReference = 1824E9E819A57CA800A4151E /* 02-团购Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1824E9BF19A57CA800A4151E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					1824E9E719A57CA800A4151E = {
+						TestTargetID = 1824E9C619A57CA800A4151E;
+					};
+				};
+			};
+			buildConfigurationList = 1824E9C219A57CA800A4151E /* Build configuration list for PBXProject "02-团购" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1824E9BE19A57CA800A4151E;
+			productRefGroup = 1824E9C819A57CA800A4151E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1824E9C619A57CA800A4151E /* 02-团购 */,
+				1824E9E719A57CA800A4151E /* 02-团购Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1824E9C519A57CA800A4151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824E9E319A57CA800A4151E /* Images.xcassets in Resources */,
+				1824EA0F19A58F3F00A4151E /* HMTgFooterView.xib in Resources */,
+				1824EA0019A57D1500A4151E /* tgs.plist in Resources */,
+				1824EA0519A5810200A4151E /* HMTgCell.xib in Resources */,
+				1824E9D519A57CA800A4151E /* InfoPlist.strings in Resources */,
+				1824EA1619A59F0C00A4151E /* HMTgHeadView.xib in Resources */,
+				1824E9DE19A57CA800A4151E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1824E9E619A57CA800A4151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824E9F419A57CA800A4151E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1824E9C319A57CA800A4151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824EA0819A582C300A4151E /* HMTgCell.m in Sources */,
+				1824E9E119A57CA800A4151E /* HMViewController.m in Sources */,
+				1824EA0319A57D5000A4151E /* HMTg.m in Sources */,
+				1824E9D719A57CA800A4151E /* main.m in Sources */,
+				1824E9DB19A57CA800A4151E /* HMAppDelegate.m in Sources */,
+				1824EA1219A58F6F00A4151E /* HMTgFooterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1824E9E419A57CA800A4151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824E9F619A57CA800A4151E /* _2___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1824E9EE19A57CA800A4151E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1824E9C619A57CA800A4151E /* 02-团购 */;
+			targetProxy = 1824E9ED19A57CA800A4151E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1824E9D319A57CA800A4151E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1824E9D419A57CA800A4151E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1824E9DC19A57CA800A4151E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1824E9DD19A57CA800A4151E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1824E9F219A57CA800A4151E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1824E9F319A57CA800A4151E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1824E9F719A57CA800A4151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1824E9F819A57CA800A4151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1824E9FA19A57CA800A4151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-团购/02-团购-Prefix.pch";
+				INFOPLIST_FILE = "02-团购/02-团购-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1824E9FB19A57CA800A4151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-团购/02-团购-Prefix.pch";
+				INFOPLIST_FILE = "02-团购/02-团购-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1824E9FD19A57CA800A4151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02-团购.app/02-团购";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-团购/02-团购-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-团购Tests/02-团购Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1824E9FE19A57CA800A4151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02-团购.app/02-团购";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-团购/02-团购-Prefix.pch";
+				INFOPLIST_FILE = "02-团购Tests/02-团购Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1824E9C219A57CA800A4151E /* Build configuration list for PBXProject "02-团购" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1824E9F719A57CA800A4151E /* Debug */,
+				1824E9F819A57CA800A4151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1824E9F919A57CA800A4151E /* Build configuration list for PBXNativeTarget "02-团购" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1824E9FA19A57CA800A4151E /* Debug */,
+				1824E9FB19A57CA800A4151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1824E9FC19A57CA800A4151E /* Build configuration list for PBXNativeTarget "02-团购Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1824E9FD19A57CA800A4151E /* Debug */,
+				1824E9FE19A57CA800A4151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1824E9BF19A57CA800A4151E /* Project object */;
+}
